@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C80258AB240EFD8D00E9298A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80258AA240EFD8D00E9298A /* Person.swift */; };
+		C80258AD240EFDE200E9298A /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80258AC240EFDE200E9298A /* PersonCell.swift */; };
 		C813BFAD240D92B100712076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C813BFAC240D92B100712076 /* AppDelegate.swift */; };
 		C813BFAF240D92B100712076 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C813BFAE240D92B100712076 /* SceneDelegate.swift */; };
 		C813BFB1240D92B100712076 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C813BFB0240D92B100712076 /* ViewController.swift */; };
 		C813BFB4240D92B100712076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C813BFB2240D92B100712076 /* Main.storyboard */; };
 		C813BFB6240D92B200712076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C813BFB5240D92B200712076 /* Assets.xcassets */; };
 		C813BFB9240D92B200712076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C813BFB7240D92B200712076 /* LaunchScreen.storyboard */; };
-		C813BFC3240D954800712076 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C813BFC2240D954800712076 /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C80258AA240EFD8D00E9298A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C80258AC240EFDE200E9298A /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 		C813BFA9240D92B100712076 /* Names to Faces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Names to Faces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C813BFAC240D92B100712076 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C813BFAE240D92B100712076 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +28,6 @@
 		C813BFB5240D92B200712076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C813BFB8240D92B200712076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C813BFBA240D92B200712076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C813BFC2240D954800712076 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,6 @@
 		C813BFA0240D92B100712076 = {
 			isa = PBXGroup;
 			children = (
-				C813BFC2240D954800712076 /* PersonCell.swift */,
 				C813BFAB240D92B100712076 /* Names to Faces */,
 				C813BFAA240D92B100712076 /* Products */,
 			);
@@ -65,7 +66,9 @@
 				C813BFB2240D92B100712076 /* Main.storyboard */,
 				C813BFB5240D92B200712076 /* Assets.xcassets */,
 				C813BFB7240D92B200712076 /* LaunchScreen.storyboard */,
+				C80258AA240EFD8D00E9298A /* Person.swift */,
 				C813BFBA240D92B200712076 /* Info.plist */,
+				C80258AC240EFDE200E9298A /* PersonCell.swift */,
 			);
 			path = "Names to Faces";
 			sourceTree = "<group>";
@@ -143,8 +146,9 @@
 			files = (
 				C813BFB1240D92B100712076 /* ViewController.swift in Sources */,
 				C813BFAD240D92B100712076 /* AppDelegate.swift in Sources */,
-				C813BFC3240D954800712076 /* PersonCell.swift in Sources */,
+				C80258AB240EFD8D00E9298A /* Person.swift in Sources */,
 				C813BFAF240D92B100712076 /* SceneDelegate.swift in Sources */,
+				C80258AD240EFDE200E9298A /* PersonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
